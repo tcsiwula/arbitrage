@@ -24,7 +24,7 @@ func main() {
   go loop()
   elapsed := time.Since(start)
   fmt.Println("Loop took ", elapsed)
-  //time.Sleep(time.Second * 5)
+  time.Sleep(time.Second * 5)
 
 }
 
